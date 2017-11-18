@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.vans.ProSkate.Sk8HiPro.Sk8HiProTest">
+        <methods>
+          <include name="addToCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vans.ProSkate.Sk8HiPro.Sk8HiProTest -->
+      <class name="com.vans.Classic.Sk8HiClassic.Sk8HiClassicTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vans.Classic.Sk8HiClassic.Sk8HiClassicTest -->
+      <class name="com.vans.AllWeather.EraMte.EraMteTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- com.vans.AllWeather.EraMte.EraMteTest -->
+      <class name="com.vans.Classic.EraClassic.EraClassicTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vans.Classic.EraClassic.EraClassicTest -->
+      <class name="com.vans.ProSkate.ChimaPro.ChimaProTest">
+        <methods>
+          <include name="addToCart"/>
+          <include name="verifyClickOnBuyButton"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vans.ProSkate.ChimaPro.ChimaProTest -->
+      <class name="com.vans.ProSkate.EraPro.EraProTest">
+        <methods>
+          <include name="addToCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyAllflyOutMenuOptions"/>
+        </methods>
+      </class> <!-- com.vans.ProSkate.EraPro.EraProTest -->
+      <class name="com.vans.Classic.AuthenticClassic.AuthenticClassicTest">
+        <methods>
+          <include name="addToCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vans.Classic.AuthenticClassic.AuthenticClassicTest -->
+      <class name="com.vans.ClassicLites.AuthenticLite.AuthenticLiteTest">
+        <methods>
+          <include name="verifyStartOver"/>
+          <include name="addToCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyAllQtyPresent"/>
+        </methods>
+      </class> <!-- com.vans.ClassicLites.AuthenticLite.AuthenticLiteTest -->
+      <class name="com.vans.Classic.OldSkoolClassic.OldSkoolClassicTest">
+        <methods>
+          <include name="addToWishList"/>
+          <include name="tearDown"/>
+          <include name="verifyClickOnBuyButton"/>
+          <include name="addToCart"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vans.Classic.OldSkoolClassic.OldSkoolClassicTest -->
+      <class name="com.vans.AllWeather.Sk8HiMte.Sk8HiMteTest">
+        <methods>
+          <include name="verifyAllSizesPresent"/>
+          <include name="verifyAllQtyPresent"/>
+          <include name="verifyAllflyOutMenuOptions"/>
+          <include name="verifyStartOver"/>
+          <include name="tearDown"/>
+          <include name="verifyClickOnBuyButton"/>
+          <include name="verifyMaterialsUpcharge"/>
+          <include name="verifySharelinkButton"/>
+          <include name="setUp"/>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- com.vans.AllWeather.Sk8HiMte.Sk8HiMteTest -->
+      <class name="com.vans.ClassicLites.OldSkoolLite.OldSkoolLiteTest">
+        <methods>
+          <include name="verifyAllSizesPresent"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vans.ClassicLites.OldSkoolLite.OldSkoolLiteTest -->
+      <class name="com.vans.ProSkate.OldSkoolPro.OldSkoolProTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vans.ProSkate.OldSkoolPro.OldSkoolProTest -->
+      <class name="com.vans.ClassicLites.Sk8HiLite.Sk8HiLiteTest">
+        <methods>
+          <include name="addToCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vans.ClassicLites.Sk8HiLite.Sk8HiLiteTest -->
+      <class name="com.vans.AllWeather.OldSkoolMte.OldSkoolMteTest">
+        <methods>
+          <include name="verifyBaseurlForSk8HiMte"/>
+          <include name="verifyClickOnBuyButton"/>
+          <include name="addToCart"/>
+          <include name="verifyAllSizesPresent"/>
+          <include name="verifyMaterialsUpcharge"/>
+          <include name="verifySharelinkButton"/>
+          <include name="tearDown"/>
+          <include name="addToWishList"/>
+          <include name="verifyAllQtyPresent"/>
+          <include name="setUp"/>
+          <include name="verifyAllflyOutMenuOptions"/>
+          <include name="verifyEmailShareButton"/>
+        </methods>
+      </class> <!-- com.vans.AllWeather.OldSkoolMte.OldSkoolMteTest -->
+      <class name="com.vans.Classic.ClassicSlipOn.ClassicSlipOnTest">
+        <methods>
+          <include name="verifyEmailShareButton"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addToCart"/>
+          <include name="verifyAllSizesPresent"/>
+        </methods>
+      </class> <!-- com.vans.Classic.ClassicSlipOn.ClassicSlipOnTest -->
+      <class name="com.vans.ProSkate.SlipOnPro.SlipOnProTest">
+        <methods>
+          <include name="verifyClickOnBuyButton"/>
+          <include name="addToCart"/>
+          <include name="verifyAllSizesPresent"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vans.ProSkate.SlipOnPro.SlipOnProTest -->
+      <class name="com.vans.ClassicLites.SlipOnLite.SlipOnLIteTest">
+        <methods>
+          <include name="addToCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vans.ClassicLites.SlipOnLite.SlipOnLIteTest -->
+      <class name="com.vans.ProSkate.AuthenticPro.AuthenticProTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- com.vans.ProSkate.AuthenticPro.AuthenticProTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
